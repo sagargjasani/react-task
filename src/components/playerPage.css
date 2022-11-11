@@ -1,0 +1,25 @@
+.playerPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.section{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    place-items: center;
+}
+
+h2{
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    
+}
+.team{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    place-items: center;
+}

@@ -1,0 +1,23 @@
+.playerlistContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw
+}
+
+.paginationContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.paginationButton{
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.mainTitle{
+    font-size: 2rem;
+}
